@@ -1,4 +1,3 @@
-@-moz-document url("https://shop.lazylinks.fr/upcoming/") {
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
 
 @font-face {
@@ -1460,13 +1459,7 @@ p {
 .trn-site {
     font-family: "Roboto","Helvetica Neue",Helvetica,Arial,sans-serif;
     color: #fff;
-    background: -moz-linear-gradient(321deg, rgba(130,167,212,1) 0%, rgba(39,63,125,1) 100%); /* ff3.6+ */
-    background: -webkit-gradient(linear, left top, right bottom, color-stop(0%, rgba(130,167,212,1)), color-stop(100%, rgba(39,63,125,1))); /* safari4+,chrome */
-    background: -webkit-linear-gradient(321deg, rgba(130,167,212,1) 0%, rgba(39,63,125,1) 100%); /* safari5.1+,chrome10+ */
-    background: -o-linear-gradient(321deg, rgba(130,167,212,1) 0%, rgba(39,63,125,1) 100%); /* opera 11.10+ */
-    background: -ms-linear-gradient(321deg, rgba(130,167,212,1) 0%, rgba(39,63,125,1) 100%); /* ie10+ */
-    background: linear-gradient(129deg, rgb(255, 255, 255) 0%, rgb(255, 255, 255) 100%); /* w3c */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#82a7d4', endColorstr='#273f7d',GradientType=1 ); /* ie6-9 */
+    background: #ffffff;
     margin: 0;
 }
 
@@ -1710,6 +1703,7 @@ p {
 }
 
 .trn-card {
+    background: #ffffff;
     margin-bottom: 2.4rem;
     display: block;
 }
@@ -1744,7 +1738,7 @@ p {
     font-weight: 900;
     padding: .8rem 1.6rem;
     margin: 0;
-    color: white;
+    color: #000;
 }
 
 .trn-card__header-tabs {
@@ -2397,7 +2391,7 @@ p {
 .trn-title--section {
     border-left: .8rem solid #FFEB3B;
     padding-left: 2.4rem;
-    color: black;
+    color: #000000;
 }
 
 .trn-title--normal {
@@ -3959,17 +3953,6 @@ p {
     font-family: burbank-small
 }
 
-.fortnite-db-item__type {
-    font-family: 'Open Sans', sans-serif;
-    text-transform: uppercase;
-    background: rgba(0,7,36,.5);
-    padding: .3rem 0;
-    text-align: center;
-    font-size: 1.2rem;
-    color: #fff;
-    font-family: 'Open Sans', sans-serif;
-}
-
 .fortnite-db-item__price {
     font-weight: bold;
     background-color: #000724;
@@ -4072,7 +4055,7 @@ p {
 }
 
 .trn-card.trn-card--ftr-yellow .trn-card__header-title {
-    color: black;
+    color: #000;
 }
 
 .trn-card.trn-card--ftr-yellow .trn-card__header-subline {
@@ -4085,15 +4068,15 @@ p {
 }
 
 .trn-card.trn-card--ftr-blue .trn-card__header {
-    background: #17c2fe;
+    background: #FFEB3B;
 }
 
 .trn-card.trn-card--ftr-blue .trn-card__header-title {
-    color: #034a63;
+    color: #000000;
 }
 
 .trn-card.trn-card--ftr-blue .trn-card__header-subline {
-    background: #0682b1;
+    background: #000000;
     color: #fff;
 }
 
@@ -4902,5 +4885,4 @@ p {
         top: .8rem;
         right: .8rem;
     }
-}
 }
